@@ -1,5 +1,6 @@
 
-import Navbar from './customer/components/Navbar/Navbar'
+import Navigation from './customer/components/Navbar/Navbar'
+
 
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
   return (
     <>
       <div className="' '">
-       <Navbar/>
+        <Navigation/>
         <div className="Home">
           Home
         </div>
