@@ -1,4 +1,5 @@
 
+import HomePage from './customer/Pages/HomePage/HomePage'
 import Navigation from './customer/components/Navbar/Navbar'
 
 
@@ -10,7 +11,7 @@ function App() {
       <div className="' '">
         <Navigation/>
         <div className="Home">
-          Home
+          <HomePage/>
         </div>
 
       </div>
