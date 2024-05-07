@@ -7,11 +7,12 @@ import { mensShoesPage1 } from '../../../assets/ecommerce-products-data/shoes'
 import { sareePage1 } from '../../../assets/ecommerce-products-data/Saree/page1'
 import { gounsPage1 } from '../../../assets/ecommerce-products-data/Gouns/gouns'
 import Footer from '../../components/Footer/Footer'
+import Product from '../../components/Product/Product'
 
 const HomePage = () => {
   return (
     <div>
-        <HomeCarousel/>
+        {/* <HomeCarousel/>
 
         <div className='space-y-10 py-10 flex flex-col justify-center px-5 lg:px-10'>
           
@@ -24,7 +25,9 @@ const HomePage = () => {
 
         <div className='bg-black'>
         <Footer/>
-        </div>
+        </div> */}
+
+        <Product/>
 
         
     </div>
