@@ -5,8 +5,8 @@ import { mens_kurta } from '../../../assets/ecommerce-products-data/Men/men_kurt
 import { mensPantsPage1 } from '../../../assets/ecommerce-products-data/pants/men_page1'
 import { mensShoesPage1 } from '../../../assets/ecommerce-products-data/shoes'
 import { sareePage1 } from '../../../assets/ecommerce-products-data/Saree/page1'
-import { lengha_page1 } from '../../../assets/ecommerce-products-data/Women/LenghaCholi'
 import { gounsPage1 } from '../../../assets/ecommerce-products-data/Gouns/gouns'
+import Footer from '../../components/Footer/Footer'
 
 const HomePage = () => {
   return (
@@ -21,6 +21,12 @@ const HomePage = () => {
           <HomeSectionCarousel data={sareePage1} sectionName="Women's Saree"/>
           <HomeSectionCarousel data={gounsPage1} sectionName="Women's Gouns"/>
         </div>
+
+        <div className='bg-black'>
+        <Footer/>
+        </div>
+
+        
     </div>
   )
 }
