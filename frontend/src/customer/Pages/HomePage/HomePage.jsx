@@ -8,6 +8,7 @@ import { sareePage1 } from '../../../assets/ecommerce-products-data/Saree/page1'
 import { gounsPage1 } from '../../../assets/ecommerce-products-data/Gouns/gouns'
 import Footer from '../../components/Footer/Footer'
 import Product from '../../components/Product/Product'
+import ProductDetails from '../../components/produtDetails/ProductDetails'
 
 const HomePage = () => {
   return (
@@ -27,7 +28,9 @@ const HomePage = () => {
         <Footer/>
         </div> */}
 
-        <Product/>
+        {/* <Product/> */}
+
+        <ProductDetails/>
 
         
     </div>
