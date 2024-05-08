@@ -9,6 +9,7 @@ import { gounsPage1 } from '../../../assets/ecommerce-products-data/Gouns/gouns'
 import Footer from '../../components/Footer/Footer'
 import Product from '../../components/Product/Product'
 import ProductDetails from '../../components/produtDetails/ProductDetails'
+import Cart from '../../components/Cart/Cart'
 
 const HomePage = () => {
   return (
@@ -30,7 +31,11 @@ const HomePage = () => {
 
         {/* <Product/> */}
 
-        <ProductDetails/>
+        {/* <ProductDetails/> */}
+
+        <Cart/>
+
+
 
         
     </div>
