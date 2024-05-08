@@ -10,6 +10,7 @@ import Footer from '../../components/Footer/Footer'
 import Product from '../../components/Product/Product'
 import ProductDetails from '../../components/produtDetails/ProductDetails'
 import Cart from '../../components/Cart/Cart'
+import Checkout from '../../components/Checkout/Checkout'
 
 const HomePage = () => {
   return (
@@ -33,7 +34,9 @@ const HomePage = () => {
 
         {/* <ProductDetails/> */}
 
-        <Cart/>
+        {/* <Cart/> */}
+
+        <Checkout/>
 
 
 
