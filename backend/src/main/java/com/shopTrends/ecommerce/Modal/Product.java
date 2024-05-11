@@ -41,14 +41,13 @@ public class Product {
     @Column(name = "color")
     private int color;
 
+    @ElementCollection
     private Set<Size> sizes=new HashSet<>();
 
     @Column(name = "imageUrl")
     private String imageUrl;
 
-    @ManyToOne()
-    @JoinColumn(name = "category_id")
-    private Category category;
+
 
     private LocalDateTime createAt;
 
@@ -65,7 +64,7 @@ public class Product {
         this.id = id;
     }
 
-    public Product(long id, String title, String description, int price, int discountedPrice, int discountPercent, int quantity, int brand, int color, Set<Size> sizes, String imageUrl, Category category, LocalDateTime createAt) {
+    public Product(long id, String title, String description, int price, int discountedPrice, int discountPercent, int quantity, int brand, int color, Set<Size> sizes, String imageUrl, LocalDateTime createAt) {
         this.id = id;
         Title = title;
         this.description = description;
@@ -77,7 +76,7 @@ public class Product {
         this.color = color;
         this.sizes = sizes;
         this.imageUrl = imageUrl;
-        this.category = category;
+
         this.createAt = createAt;
     }
 
@@ -162,13 +161,7 @@ public class Product {
         this.imageUrl = imageUrl;
     }
 
-    public Category getCategory() {
-        return category;
-    }
 
-    public void setCategory(Category category) {
-        this.category = category;
-    }
 
     public LocalDateTime getCreateAt() {
         return createAt;

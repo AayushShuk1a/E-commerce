@@ -1,5 +1,9 @@
 package com.shopTrends.ecommerce.Modal;
 
+
+import jakarta.persistence.Embeddable;
+
+@Embeddable
 public class Size {
     private String name;
     private String quantity;
