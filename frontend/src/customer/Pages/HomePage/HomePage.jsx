@@ -11,11 +11,13 @@ import Product from '../../components/Product/Product'
 import ProductDetails from '../../components/produtDetails/ProductDetails'
 import Cart from '../../components/Cart/Cart'
 import Checkout from '../../components/Checkout/Checkout'
+import Order from '../../components/Order/Order'
+import OrderDetails from '../../components/Order/OrderDetails'
 
 const HomePage = () => {
   return (
     <div>
-        {/* <HomeCarousel/>
+        <HomeCarousel/>
 
         <div className='space-y-10 py-10 flex flex-col justify-center px-5 lg:px-10'>
           
@@ -24,23 +26,7 @@ const HomePage = () => {
           <HomeSectionCarousel data={mensShoesPage1} sectionName="Men's Shoes"/>
           <HomeSectionCarousel data={sareePage1} sectionName="Women's Saree"/>
           <HomeSectionCarousel data={gounsPage1} sectionName="Women's Gouns"/>
-        </div>
-
-        <div className='bg-black'>
-        <Footer/>
-        </div> */}
-
-        {/* <Product/> */}
-
-        {/* <ProductDetails/> */}
-
-        {/* <Cart/> */}
-
-        <Checkout/>
-
-
-
-        
+        </div>        
     </div>
   )
 }
